@@ -1,0 +1,185 @@
+.App {
+  height: 100vh;
+  background-color: #0e1b2c;
+  overflow: scroll;
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  background-color: #0e1b2c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-container {
+  padding-top: 30px;
+}
+
+.header {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 25px;
+  color: white;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #f5259e 30%, #8821e9 60%);
+  /* background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%); */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.connect-wallet-button {
+  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.mint-button {
+  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 15px;
+}
+
+/* .opensea-button {
+  background-color: rgb(32, 129, 226);
+} */
+
+.mint-count {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.twitter-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 7px;
+  margin-right: 30px;
+}
+
+/* KeyFrames */
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.loading-button {
+  background: -webkit-linear-gradient(left, #e79243, #d11c1c);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.event-container {
+  width: 30%;
+  height: 30%;
+  margin: 60px auto;
+  background-color: rgba(255, 255, 255, 0.062);
+  font-size: 1em;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-container h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.receipt {
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.receipt a {
+  text-decoration: none;
+  color: #e9f3ff;
+}
+
+.svg {
+  padding: 0;
+  margin: 0;
+}
+
+.opensea {
+  margin: 10px;
+}
+.opensea a {
+  text-decoration: none;
+  color: #8abfff;
+}
+
+.nft-count {
+  color: #e9f3ff;
+  padding-bottom: 10px;
+}
